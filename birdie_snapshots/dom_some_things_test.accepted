@@ -1,0 +1,15 @@
+---
+version: 1.1.0
+title: dom_some_things_test
+file: ./test/javascript_dom_parser_test.gleam
+test_name: dom_some_things_test
+---
+<html><head></head><body><h1>Hello, Joe!</h1>
+  <h2>BEAM languages:</h2><h2>
+  <ul>
+    <li>Erlang
+    </li><li>LFE
+    </li><li>Elixir
+    </li><li>Gleam
+  <ul>
+  </ul></li></ul></h2></body></html>

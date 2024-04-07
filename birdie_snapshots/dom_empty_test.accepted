@@ -1,0 +1,7 @@
+---
+version: 1.1.0
+title: dom_empty_test
+file: ./test/javascript_dom_parser_test.gleam
+test_name: dom_empty_test
+---
+<html><head></head><body></body></html>

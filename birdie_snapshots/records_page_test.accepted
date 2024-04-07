@@ -1,0 +1,49 @@
+---
+version: 1.1.0
+title: records_page_test
+file: ./test/javascript_dom_parser_test.gleam
+test_name: records_page_test
+---
+Element(
+  "HTML",
+  [#("lang", "en")],
+  [
+    Element(
+      "HEAD",
+      [],
+      [
+        Text("
+  "),
+        Element(
+          "TITLE",
+          [],
+          [Text("Hi!")],
+        ),
+        Text("
+"),
+      ],
+    ),
+    Text("
+"),
+    Element(
+      "BODY",
+      [],
+      [
+        Text("
+  "),
+        Element(
+          "P",
+          [#("style", "color: #ffaff3")],
+          [Text("How are you?")],
+        ),
+        Text("
+  "),
+        Comment(" Wooo coding! "),
+        Text("
+
+
+"),
+      ],
+    ),
+  ],
+)
